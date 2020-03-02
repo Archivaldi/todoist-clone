@@ -1,8 +1,8 @@
-exports.creds = {
+exports.data = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
     databaseURL: process.env.databaseURL,
-    projectId: process.env.projectId,
+    projectId: process.env.PROJECT_ID,
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId,
